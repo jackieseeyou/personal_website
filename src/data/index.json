@@ -1,0 +1,53 @@
+{
+    "skills": [
+        {
+            "id": "1",
+            "src": "../img/hero_img.png",
+            "title": "Front-End",
+            "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspensse cursus erat sed semper sagittis."
+        },
+        {
+            "id": "2",
+            "src": "../img/hero_img.png",
+            "title": "Back-End",
+            "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspensse cursus erat sed semper sagittis."
+        },
+        {
+            "id": "3",
+            "src": "../img/hero_img.png",
+            "title": "UI & UX Design",
+            "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspensse cursus erat sed semper sagittis."
+        },
+        {
+            "id": "4",
+            "src": "../img/hero_img.png",
+            "title": "Webflow Development",
+            "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspensse cursus erat sed semper sagittis."
+        }
+    ],
+    "portfolio": [
+        {
+            "id": "1",
+            "src": "../img/hero_img.png",
+            "title": "Ahuse",
+            "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspensse cursus erat sed semper sagittis.",
+            "link": "View in Github"
+        },
+        {
+            "id": "2",
+            "src": "../img/hero_img.png",
+            "title": "App Dashboard",
+            "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspensse cursus erat sed semper sagittis.",
+            "link": "View in Github"
+        },
+        {
+            "id": "3",
+            "src": "../img/hero_img.png",
+            "title": "Easy Rentn",
+            "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspensse cursus erat sed semper sagittis.",
+            "link": "View in Github"
+        }
+    ]
+
+
+}
