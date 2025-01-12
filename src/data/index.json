@@ -31,14 +31,15 @@
             "src": "../img/MineHomeScreen2.png",
             "title": "Mine - Dating App",
             "description": "Full Stack Development of a Mobile dating app. This was my Computer Science Capstone group project (Community Impact Award).",
-            
+            "stack": ["JavaScript", "React Native", "Node.js", "Express", "PostgreSQL", "AWS"],
             "link": "View in Github"
         },
         {
             "id": "2",
-            "src": "../img/hero_img.png",
-            "title": "App Dashboard",
+            "src": "../img/cs235gl2.png",
+            "title": "CS235GL - Game Library",
             "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspensse cursus erat sed semper sagittis.",
+            "stack": ["Python","HTML", "CSS", "Flask"],
             "link": "View in Github"
         },
         {
@@ -46,6 +47,7 @@
             "src": "../img/hero_img.png",
             "title": "Easy Rentn",
             "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspensse cursus erat sed semper sagittis.",
+            "stack": ["JavaScript", "React Native", "Node.js", "Express", "PostgreSQL", "AWS"],
             "link": "View in Github"
         }
     ]

@@ -37,6 +37,11 @@ export default function MyPortfolio() {
                         <div className="portfolio--section--card--content">
                             <h3 className="portfolio--section--title">{item.title}</h3>
                             <p className="text-md">{item.description}</p>
+                            <ul className="portfolio--tech-stack">
+                                {item.stack.map((tech, idx) => (
+                                    <li key={idx} className="portfolio--tech-item">{tech}</li>
+                                ))}
+                            </ul>
 
                             <p className="text-sm portfolio--link">
                                 
