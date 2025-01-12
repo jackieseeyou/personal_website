@@ -4,8 +4,7 @@ export default function MyPortfolio() {
         <section className="portfolio--section" id="MyPortfolio">
             <div className="portfolio--container-box">
                 <div className="portfolio--container">
-                    <p className="sub--title">Recent Projects</p>
-                    <h2 className="section--heading">My Portfolio</h2>
+                    <h2 className="section--heading">Projects</h2>
                 </div>
                 <div>
                     <button className="btn btn-github">
@@ -26,11 +25,11 @@ export default function MyPortfolio() {
                             <p className="text-sm portfolio--link">
                                 {item.link}
                                 <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="16"
-                                    height="16"
-                                    viewBox="0 0 20 19"
-                                    fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 20 19"
+                                fill="none"
                                 >
                                 <path
                                     d="M4.66667 1.66675H18V15.0001M18 1.66675L2 17.6667L18 1.66675Z"
