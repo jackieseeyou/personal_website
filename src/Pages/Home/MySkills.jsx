@@ -19,7 +19,7 @@ export default function MySkills() {
 
                         <div className="skills--section--card--content">
                             <h3 clasName="skills--section--title">{item.title}</h3>
-                            <p clasName="skills--section--description">{item.description}</p>
+                            {/* <p clasName="skills--section--description">{item.description}</p> */}
                         </div>
                     </div>
                     ))}
