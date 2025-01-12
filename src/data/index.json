@@ -28,9 +28,10 @@
     "portfolio": [
         {
             "id": "1",
-            "src": "../img/hero_img.png",
-            "title": "Ahuse",
-            "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspensse cursus erat sed semper sagittis.",
+            "src": "../img/MineHomeScreen2.png",
+            "title": "Mine - Dating App",
+            "description": "Computer Science Capstone group project (Community Impact Award winner) for the mobile dating application. The dating app provides a fair and simple algorithm on matches, without blocking users with common paywall subscription tactics.",
+            
             "link": "View in Github"
         },
         {
