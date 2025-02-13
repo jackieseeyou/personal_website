@@ -355,12 +355,32 @@ h3 {
   }
   .skills--section--img {
     display: flex;
+    position: relative;
   }
   .skills--section--img > img {
     width: 80px;
     height: 80px;
     object-fit: contain;
   }
+  .skills--img--name {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.skills--section--img:hover .skills--img--name {
+  opacity: 1;
+}
+  
 /* Skills Style Ends */
 
 
