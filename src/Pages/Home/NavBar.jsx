@@ -36,7 +36,7 @@ function Navbar() {
 
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
-      <div><h3>applefruiter</h3></div>
+      <div><h3>Jackie Sieu</h3></div>
 
       <a className={`nav__hamburger ${navActive ? "active" : ""}`} onClick={toggleNav}>
         <span className="nav__hamburger__line"></span>
@@ -53,7 +53,14 @@ function Navbar() {
             <a href="#aboutMe" onClick={closeMenu} className={`navbar--content ${activeSection === "aboutMe" ? "navbar--active-content" : ""}`}>About Me</a>
           </li>
           <li>
-            <a href="#mySkills" onClick={closeMenu} className={`navbar--content ${activeSection === "mySkills" ? "navbar--active-content" : ""}`}>Skills</a>
+            <a href="#mySkills" onClick={() => {
+                closeMenu();
+                setActiveSection("mySkills"); // need to force highlight for  just this skills section because of bug in hamburger menu not highlighting when active.
+              }}
+              className={`navbar--content ${activeSection === "mySkills" ? "navbar--active-content" : ""}`}
+              >
+                Skills
+            </a>
           </li>
           <li>
             <a href="#myProjects" onClick={closeMenu} className={`navbar--content ${activeSection === "myProjects" ? "navbar--active-content" : ""}`}>Projects</a>
