@@ -1,7 +1,7 @@
 import data from "../../data/index.json";
 export default function MyPortfolio() {
     return(
-        <section className="portfolio--section" id="MyProjects">
+        <section className="portfolio--section" id="myProjects">
             <div className="portfolio--container-box">
                 <div className="portfolio--container">
                     <h2 className="section--heading">Projects</h2>
