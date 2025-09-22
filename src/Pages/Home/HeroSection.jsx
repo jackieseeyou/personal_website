@@ -68,7 +68,7 @@ export default function HeroSection() {
                     <p className="hero--section--description">
                         A recent graduate Computer Science student from the University of Auckland.
                         <br/>
-                        Molestiae repellat nemo asperiores tempore ut.
+                        With a passion for web and mobile development and data analysis, I am eager to contribute my skills and knowledge to a graduate role.
                     </p>
                 </div>
                 
