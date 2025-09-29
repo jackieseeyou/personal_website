@@ -39,7 +39,7 @@ export default function HeroSection() {
 
                                     
                                     <li>
-                                    <a
+                                    {/* <a
                                         href="https://www.linkedin.com/"
                                         className="navbar--content"
                                         target="_blank"
@@ -59,7 +59,7 @@ export default function HeroSection() {
                                             fill="#EBEBEB"
                                         />
                                         </svg>
-                                    </a>
+                                    </a> */}
                                     </li>
                                 </ul>
                             </div>

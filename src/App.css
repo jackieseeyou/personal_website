@@ -280,6 +280,9 @@ h3 {
     flex-shrink: 0;
     text-decoration: none;
   }
+.contact--section  .social--icon > ul {
+    justify-content: center;
+}
 
 .hero--section--content--box > button {
     margin-top: 21.333px;
