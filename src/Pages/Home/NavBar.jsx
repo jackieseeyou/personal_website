@@ -27,7 +27,8 @@ function Navbar() {
           }
         });
       },
-      { threshold: 0.6 } // section considered visible if 60% is in viewport
+      { threshold: 0.6, rootMargin: "0px 0px -20% 0px" }
+ // section considered visible if 60% is in viewport
     );
 
     sections.forEach(section => observer.observe(section));
@@ -47,11 +48,11 @@ function Navbar() {
       <div className={`navbar--items ${navActive ? "active" : ""}`}>
         <ul>
           <li>
-            <a href="#heroSection" onClick={closeMenu} className={`navbar--content ${activeSection === "heroSection" ? "navbar--active-content" : ""}`}>Home</a>
+            <a href="#heroSection" onClick={closeMenu} className={`navbar--content ${activeSection === "heroSection" ? "navbar--active-content" : ""}`}>About Me</a>
           </li>
-          <li>
+          {/* <li>
             <a href="#aboutMe" onClick={closeMenu} className={`navbar--content ${activeSection === "aboutMe" ? "navbar--active-content" : ""}`}>About Me</a>
-          </li>
+          </li> */}
           <li>
             <a href="#mySkills" onClick={() => {
                 closeMenu();

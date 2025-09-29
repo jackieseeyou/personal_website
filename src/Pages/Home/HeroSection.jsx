@@ -66,9 +66,7 @@ export default function HeroSection() {
                         </div>
                     </div>
                     <p className="hero--section--description">
-                        A recent graduate Computer Science student from the University of Auckland.
-                        <br/>
-                        With a passion for web and mobile development and data analysis, I am eager to contribute my skills and knowledge to a graduate role.
+                        I am a recent Computer Science graduate with a strong foundation in web/mobile development, customer service and trouble shooting. Having collaborated in team projects with developing full-stack applications, I am very keen to apply my analytical skills and problem-solving to a graduate role.
                     </p>
                 </div>
                 
