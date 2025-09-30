@@ -8,7 +8,7 @@ export default function MyPortfolio() {
                 </div>
                 <div>
                 <a
-                    href="https://github.com/"
+                    href="https://github.com/jackieseeyou?tab=repositories"
                     className="navbar--content"
                     target="_blank"
                     rel="noreferrer"

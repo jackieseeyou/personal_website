@@ -17,7 +17,7 @@ export default function HeroSection() {
                                 <ul>
                                     <li>
                                         <a
-                                            href="https://github.com/"
+                                            href="https://github.com/jackieseeyou/"
                                             className="navbar--content"
                                             target="_blank"
                                             rel="noreferrer"
