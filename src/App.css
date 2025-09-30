@@ -35,12 +35,16 @@ body::-webkit-scrollbar {
     margin-top: 4rem;
     margin-left: clamp(1rem, 5%, 6rem);  /* min 1rem, preferred 5% of viewport, max 6rem */
     margin-right: clamp(1rem, 5%, 6rem);
+    
 }
 
 .main-content-section {
-  min-height: 100vh;
+  min-height: 50vh;
   box-sizing: border-box;
   scroll-snap-align: start;
+  /* display: flex;
+  align-items: center;  
+  justify-content: center; */
 }
 img {
   max-width: 100%;
