@@ -78,7 +78,7 @@
             "title": "Mine - Dating App",
             "description": "Full Stack Development of a Mobile dating app. This was my Computer Science Capstone group project (Community Impact Award).",
             "stack": ["JavaScript", "React Native", "Node.js", "Express", "PostgreSQL", "AWS"],
-            "link": "View in Github"
+            "link": ""
         },
         {
             "id": "2",
@@ -86,7 +86,7 @@
             "title": "CS235GL - Game Library",
             "description": "A Python project of a simple game library web application using Flask. The game library allows you to search for games by filtering by genre or publisher, giving access to details such as description, price and ratings.",
             "stack": ["Python","HTML", "CSS", "Flask"],
-            "link": "View in Github"
+            "link": "https://github.com/jackieseeyou/cs235webapp"
         },
         {
             "id": "3",
@@ -94,7 +94,7 @@
             "title": "Supervised Learning Algorithms",
             "description": "A small group project in Python, where supervised learning classifiers were trained on a BBC news article dataset. Plots for training and testing accuracy using their F1 scores. A 5-fold cross-validation was also performed to investigate the impact of hyperparameters on accuracy. ",
             "stack": ["Python"],
-            "link": "View in Github"
+            "link": ""
         },
         {
             "id": "4",
@@ -102,7 +102,7 @@
             "title": "Portfolio Website",
             "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspensse cursus erat sed semper sagittis.",
             "stack": ["React"],
-            "link": "View in Github"
+            "link": "https://github.com/jackieseeyou/personal_website"
         }
     ]
 

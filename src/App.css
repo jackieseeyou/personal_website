@@ -554,8 +554,12 @@ h3 {
     bottom: 16px;
     right: 16px;
 }
+.portfolio--link span {
+  color: var(--bg-shade); /* change to whatever color you want */
+  
+}
 .portfolio--section--card:hover path {
-    stroke: #006b6a;
+    stroke: var(--primary);
 } 
 
 
