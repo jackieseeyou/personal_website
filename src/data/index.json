@@ -100,7 +100,7 @@
             "id": "4",
             "src": "../img/portfoliowebsitepicture.png",
             "title": "Portfolio Website",
-            "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspensse cursus erat sed semper sagittis.",
+            "description": "My personal portfolio website displaying my skills and projects in React. ",
             "stack": ["React"],
             "link": "https://github.com/jackieseeyou/personal_website"
         }
