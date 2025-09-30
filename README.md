@@ -4,7 +4,7 @@ Welcome to my Portfolio Project! This repository hosts a fully functional portfo
 
 ## Live Demo
 
-Click the link here to view my portfolio website: jackiesieu.com
+Click the link here to view my portfolio website: [Link Text](jackiesieu.com)
 
 ### Usage
 
