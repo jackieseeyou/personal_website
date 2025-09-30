@@ -11,7 +11,7 @@ export default function ContactMe() {
                                 <ul>
                                     <li>
                                         <a
-                                            href="https://github.com/"
+                                            href="mailto:jackiesieu1@gmail.com"
                                             className="navbar--content"
                                             target="_blank"
                                             rel="noreferrer"
