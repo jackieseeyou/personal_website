@@ -39,13 +39,12 @@ function Navbar() {
     <nav className={`navbar ${navActive ? "active" : ""}`}>
       <div><h3>Jackie Sieu</h3></div>
 
-      <a 
-        href="#" /* need to do this to deploy. anchor gets error because no href */
+      <button
         className={`nav__hamburger ${navActive ? "active" : ""}`} onClick={toggleNav}>
         <span className="nav__hamburger__line"></span>
         <span className="nav__hamburger__line"></span>
         <span className="nav__hamburger__line"></span>
-      </a>
+      </button>
 
       <div className={`navbar--items ${navActive ? "active" : ""}`}>
         <ul>

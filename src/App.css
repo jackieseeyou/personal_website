@@ -771,8 +771,13 @@ select::-ms-expand {
     flex-direction: column;
     justify-content: space-around;
     position: absolute;
-    top: 15px; /* change later to exact */
+    top: 15px; 
     right: 25px;
+
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
   }
   
   .nav__hamburger__line {
@@ -781,7 +786,7 @@ select::-ms-expand {
     width: 100%;
     background-color: #CBD5E1;
     border-radius: 0.625rem;
-    /* transition: all ease-in-out 0.2s; */
+    
   }
   
   @media screen and (max-width: 1200px) {
@@ -801,7 +806,7 @@ select::-ms-expand {
       top: -20rem;
       left: 0;
       width: 100%;
-      /* transition: all ease-in-out 0.4s; */
+      
     }
     .navbar--items ul {
       flex-direction: column;
@@ -819,7 +824,7 @@ select::-ms-expand {
       z-index: -1000;
     }
     .navbar--items.active {
-      top: 64px; /* change later to exact */
+      top: 64px; 
     }
     .nav__hamburger.active :nth-child(1) {
       transform: rotate(45deg) translate(0.45rem, 0.1875rem);
